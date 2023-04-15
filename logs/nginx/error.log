@@ -1,0 +1,151 @@
+2023/04/15 07:23:15 [notice] 1#1: using the "epoll" event method
+2023/04/15 07:23:15 [notice] 1#1: nginx/1.23.4
+2023/04/15 07:23:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/15 07:23:15 [notice] 1#1: OS: Linux 5.19.0-38-generic
+2023/04/15 07:23:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/15 07:23:15 [notice] 1#1: start worker processes
+2023/04/15 07:23:15 [notice] 1#1: start worker process 37
+2023/04/15 07:23:15 [notice] 1#1: start worker process 38
+2023/04/15 07:23:15 [notice] 1#1: start worker process 39
+2023/04/15 07:23:15 [notice] 1#1: start worker process 40
+2023/04/15 07:23:15 [notice] 1#1: start worker process 41
+2023/04/15 07:23:15 [notice] 1#1: start worker process 42
+2023/04/15 07:23:15 [notice] 1#1: start worker process 43
+2023/04/15 07:23:15 [notice] 1#1: start worker process 44
+2023/04/15 07:25:09 [error] 37#37: *2 open() "/var/www/telegram-bot/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: telegram.local, request: "GET /favicon.ico HTTP/1.1", host: "telegram.local:8080", referrer: "http://telegram.local:8080/"
+2023/04/15 07:34:49 [error] 38#38: *24 "/var/www/telegram-bot/index.php" is not found (2: No such file or directory), client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", host: "telegram.local:8080"
+2023/04/15 07:34:53 [error] 38#38: *24 "/var/www/telegram-bot/index.php" is not found (2: No such file or directory), client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", host: "telegram.local:8080"
+2023/04/15 07:34:54 [error] 38#38: *24 "/var/www/telegram-bot/index.php" is not found (2: No such file or directory), client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", host: "telegram.local:8080"
+2023/04/15 07:34:56 [error] 38#38: *24 "/var/www/telegram-bot/index.php" is not found (2: No such file or directory), client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", host: "telegram.local:8080"
+2023/04/15 07:34:59 [error] 38#38: *24 "/var/www/telegram-bot/index.php" is not found (2: No such file or directory), client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", host: "telegram.local:8080"
+2023/04/15 07:35:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/15 07:35:18 [notice] 37#37: gracefully shutting down
+2023/04/15 07:35:18 [notice] 38#38: gracefully shutting down
+2023/04/15 07:35:18 [notice] 39#39: gracefully shutting down
+2023/04/15 07:35:18 [notice] 40#40: gracefully shutting down
+2023/04/15 07:35:18 [notice] 41#41: gracefully shutting down
+2023/04/15 07:35:18 [notice] 37#37: exiting
+2023/04/15 07:35:18 [notice] 39#39: exiting
+2023/04/15 07:35:18 [notice] 44#44: gracefully shutting down
+2023/04/15 07:35:18 [notice] 40#40: exiting
+2023/04/15 07:35:18 [notice] 41#41: exiting
+2023/04/15 07:35:18 [notice] 44#44: exiting
+2023/04/15 07:35:18 [notice] 37#37: exit
+2023/04/15 07:35:18 [notice] 40#40: exit
+2023/04/15 07:35:18 [notice] 39#39: exit
+2023/04/15 07:35:18 [notice] 38#38: exiting
+2023/04/15 07:35:18 [notice] 41#41: exit
+2023/04/15 07:35:18 [notice] 44#44: exit
+2023/04/15 07:35:18 [notice] 38#38: exit
+2023/04/15 07:35:18 [notice] 42#42: gracefully shutting down
+2023/04/15 07:35:18 [notice] 42#42: exiting
+2023/04/15 07:35:18 [notice] 42#42: exit
+2023/04/15 07:35:18 [notice] 43#43: gracefully shutting down
+2023/04/15 07:35:18 [notice] 43#43: exiting
+2023/04/15 07:35:18 [notice] 43#43: exit
+2023/04/15 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/04/15 07:35:19 [notice] 1#1: worker process 38 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: worker process 39 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: worker process 40 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: worker process 43 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/04/15 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/04/15 07:35:19 [notice] 1#1: worker process 37 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/04/15 07:35:19 [notice] 1#1: worker process 44 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/04/15 07:35:19 [notice] 1#1: worker process 42 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/04/15 07:35:19 [notice] 1#1: worker process 41 exited with code 0
+2023/04/15 07:35:19 [notice] 1#1: exit
+2023/04/15 07:35:29 [notice] 1#1: using the "epoll" event method
+2023/04/15 07:35:29 [notice] 1#1: nginx/1.23.4
+2023/04/15 07:35:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/15 07:35:29 [notice] 1#1: OS: Linux 5.19.0-38-generic
+2023/04/15 07:35:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/15 07:35:29 [notice] 1#1: start worker processes
+2023/04/15 07:35:29 [notice] 1#1: start worker process 37
+2023/04/15 07:35:29 [notice] 1#1: start worker process 38
+2023/04/15 07:35:29 [notice] 1#1: start worker process 39
+2023/04/15 07:35:29 [notice] 1#1: start worker process 40
+2023/04/15 07:35:29 [notice] 1#1: start worker process 41
+2023/04/15 07:35:29 [notice] 1#1: start worker process 42
+2023/04/15 07:35:29 [notice] 1#1: start worker process 43
+2023/04/15 07:35:29 [notice] 1#1: start worker process 44
+2023/04/15 07:35:31 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:35:35 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:35:37 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:35:38 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:36:00 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:36:15 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:37:18 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:38:14 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET /start.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:38:20 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET /start.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:38:40 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET /start.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:38:57 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET /start.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:39:21 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:39:48 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:06 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:08 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:09 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:11 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:14 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:24 [error] 39#39: *21 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/app/start.php on line 5" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:28 [error] 40#40: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/app/start.php on line 5" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "HEAD / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:32 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/app/start.php on line 5" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:34 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/app/start.php on line 5" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:36 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/app/start.php on line 5" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:43 [error] 41#41: *28 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "HEAD / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:40:47 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:41:01 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:41:24 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:41:31 [error] 42#42: *33 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "HEAD / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:41:35 [error] 38#38: *1 FastCGI sent in stderr: "PHP message: Error Message SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Temporary failure in name resolution /var/www/app/src/Extensions/MysqlPDO.php 24" while reading response header from upstream, client: 172.21.0.1, server: telegram.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "telegram.local:8080"
+2023/04/15 07:49:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/15 07:49:02 [notice] 38#38: gracefully shutting down
+2023/04/15 07:49:02 [notice] 37#37: gracefully shutting down
+2023/04/15 07:49:02 [notice] 39#39: gracefully shutting down
+2023/04/15 07:49:02 [notice] 40#40: gracefully shutting down
+2023/04/15 07:49:02 [notice] 41#41: gracefully shutting down
+2023/04/15 07:49:02 [notice] 38#38: exiting
+2023/04/15 07:49:02 [notice] 42#42: gracefully shutting down
+2023/04/15 07:49:02 [notice] 37#37: exiting
+2023/04/15 07:49:02 [notice] 39#39: exiting
+2023/04/15 07:49:02 [notice] 40#40: exiting
+2023/04/15 07:49:02 [notice] 41#41: exiting
+2023/04/15 07:49:02 [notice] 42#42: exiting
+2023/04/15 07:49:02 [notice] 39#39: exit
+2023/04/15 07:49:02 [notice] 38#38: exit
+2023/04/15 07:49:02 [notice] 37#37: exit
+2023/04/15 07:49:02 [notice] 42#42: exit
+2023/04/15 07:49:02 [notice] 41#41: exit
+2023/04/15 07:49:02 [notice] 40#40: exit
+2023/04/15 07:49:02 [notice] 43#43: gracefully shutting down
+2023/04/15 07:49:02 [notice] 44#44: gracefully shutting down
+2023/04/15 07:49:02 [notice] 43#43: exiting
+2023/04/15 07:49:02 [notice] 44#44: exiting
+2023/04/15 07:49:02 [notice] 43#43: exit
+2023/04/15 07:49:02 [notice] 44#44: exit
+2023/04/15 07:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/04/15 07:49:02 [notice] 1#1: worker process 43 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/04/15 07:49:02 [notice] 1#1: worker process 38 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: worker process 44 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/04/15 07:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/04/15 07:49:02 [notice] 1#1: worker process 37 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: worker process 40 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: worker process 41 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/04/15 07:49:02 [notice] 1#1: worker process 42 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/15 07:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/04/15 07:49:02 [notice] 1#1: worker process 39 exited with code 0
+2023/04/15 07:49:02 [notice] 1#1: exit

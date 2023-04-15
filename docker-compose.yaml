@@ -1,0 +1,31 @@
+version: '3.8'
+
+networks:
+  web:
+    driver: bridge
+
+services:
+  php-fpm:
+    tty: true # Enables debugging capabilities when attached to this container.
+    image: docker.io/bitnami/php-fpm:latest
+    ports:
+      - 9999:9000
+    volumes:
+      - ./sites:/var/www/
+    networks:
+      - web
+  
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "8080:80"
+    networks:
+      - web
+    volumes:
+      #  - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      # Это конфиги для хостов
+      - ./hosts:/etc/nginx/templates
+      # Это файлы сайтов
+      - ./sites:/var/www/
+      - ./logs/nginx:/var/log/nginx
