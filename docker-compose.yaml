@@ -12,6 +12,7 @@ services:
       - 9999:9000
     volumes:
       - ./sites:/var/www/
+      - ./fpm-pool/pool-custom.conf:/opt/bitnami/php/etc/php-fpm.d/pool-custom.conf
     networks:
       - web
   
