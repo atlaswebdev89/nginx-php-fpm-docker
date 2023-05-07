@@ -1,0 +1,15 @@
+server {
+    server_name xdebugs.local;
+    root /var/www/xdebug;
+    location / {
+        index index.php index.html start.php;
+    }
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        include fastcgi_params;
+        fastcgi_pass php-fpm-xdebug:9001;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root/$fastcgi_script_name;
+    }
+}

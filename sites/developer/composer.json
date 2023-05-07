@@ -1,0 +1,20 @@
+{
+  "name": "apollon/test",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MyApp\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "atlas",
+      "email": "atlas.webdeb89@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "tracy/tracy": "^2.10",
+    "symfony/var-dumper": "^6.2"
+  }
+}

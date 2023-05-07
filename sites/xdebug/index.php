@@ -1,0 +1,3 @@
+<?php
+$ar = "atlas";
+phpinfo();

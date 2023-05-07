@@ -5,22 +5,28 @@ networks:
     driver: bridge
 
 services:
-  php-fpm:
+  php-fpm-xdebug:
+    container_name: php-fpm-xdebug
     tty: true # Enables debugging capabilities when attached to this container.
-    image: docker.io/bitnami/php-fpm:latest
+    build:
+      context: ./fpm
+      dockerfile: Dockerfile
     ports:
-      - 9999:9000
+      - 9975:9000
     volumes:
       - ./sites:/var/www/
-      - ./fpm-pool/pool-custom.conf:/opt/bitnami/php/etc/php-fpm.d/pool-custom.conf
+      # Pool php fpm слушает 9001 порт
+      - ./fpm-pool/pool-custom.conf:/etc/php/8.2/fpm/pool.d/pool-custom.conf
+      # Конфиги для php
+      - ./fpm/conf.d/xdebug.ini:/etc/php/8.2/mods-available/xdebug.ini
     networks:
       - web
   
-  nginx:
+  nginx-xdebug:
     image: nginx:latest
-    container_name: nginx
+    container_name: nginx-xdebug
     ports:
-      - "8080:80"
+      - "8085:80"
     networks:
       - web
     volumes:

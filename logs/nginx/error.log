@@ -149,3 +149,819 @@
 2023/04/15 07:49:02 [notice] 1#1: signal 17 (SIGCHLD) received from 39
 2023/04/15 07:49:02 [notice] 1#1: worker process 39 exited with code 0
 2023/04/15 07:49:02 [notice] 1#1: exit
+2023/05/07 15:39:33 [notice] 1#1: using the "epoll" event method
+2023/05/07 15:39:33 [notice] 1#1: nginx/1.23.4
+2023/05/07 15:39:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 15:39:33 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 15:39:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 15:39:33 [notice] 1#1: start worker processes
+2023/05/07 15:39:33 [notice] 1#1: start worker process 37
+2023/05/07 15:39:33 [notice] 1#1: start worker process 38
+2023/05/07 15:39:33 [notice] 1#1: start worker process 39
+2023/05/07 15:39:33 [notice] 1#1: start worker process 40
+2023/05/07 15:39:33 [notice] 1#1: start worker process 41
+2023/05/07 15:39:33 [notice] 1#1: start worker process 42
+2023/05/07 15:39:33 [notice] 1#1: start worker process 43
+2023/05/07 15:39:33 [notice] 1#1: start worker process 44
+2023/05/07 15:50:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 15:50:44 [notice] 37#37: gracefully shutting down
+2023/05/07 15:50:44 [notice] 38#38: gracefully shutting down
+2023/05/07 15:50:44 [notice] 38#38: exiting
+2023/05/07 15:50:44 [notice] 37#37: exiting
+2023/05/07 15:50:44 [notice] 38#38: exit
+2023/05/07 15:50:44 [notice] 37#37: exit
+2023/05/07 15:50:44 [notice] 41#41: gracefully shutting down
+2023/05/07 15:50:44 [notice] 41#41: exiting
+2023/05/07 15:50:44 [notice] 41#41: exit
+2023/05/07 15:50:44 [notice] 40#40: gracefully shutting down
+2023/05/07 15:50:44 [notice] 40#40: exiting
+2023/05/07 15:50:44 [notice] 40#40: exit
+2023/05/07 15:50:44 [notice] 43#43: gracefully shutting down
+2023/05/07 15:50:44 [notice] 44#44: gracefully shutting down
+2023/05/07 15:50:44 [notice] 39#39: gracefully shutting down
+2023/05/07 15:50:44 [notice] 44#44: exiting
+2023/05/07 15:50:44 [notice] 39#39: exiting
+2023/05/07 15:50:44 [notice] 42#42: gracefully shutting down
+2023/05/07 15:50:44 [notice] 44#44: exit
+2023/05/07 15:50:44 [notice] 39#39: exit
+2023/05/07 15:50:44 [notice] 43#43: exiting
+2023/05/07 15:50:44 [notice] 42#42: exiting
+2023/05/07 15:50:44 [notice] 42#42: exit
+2023/05/07 15:50:44 [notice] 43#43: exit
+2023/05/07 15:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/05/07 15:50:44 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 15:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/05/07 15:50:44 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 15:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/05/07 15:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/05/07 15:50:44 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 15:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 15:50:44 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 15:50:44 [notice] 1#1: exit
+2023/05/07 15:50:49 [notice] 1#1: using the "epoll" event method
+2023/05/07 15:50:49 [notice] 1#1: nginx/1.23.4
+2023/05/07 15:50:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 15:50:49 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 15:50:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 15:50:49 [notice] 1#1: start worker processes
+2023/05/07 15:50:49 [notice] 1#1: start worker process 36
+2023/05/07 15:50:49 [notice] 1#1: start worker process 37
+2023/05/07 15:50:49 [notice] 1#1: start worker process 38
+2023/05/07 15:50:49 [notice] 1#1: start worker process 39
+2023/05/07 15:50:49 [notice] 1#1: start worker process 40
+2023/05/07 15:50:49 [notice] 1#1: start worker process 41
+2023/05/07 15:50:49 [notice] 1#1: start worker process 42
+2023/05/07 15:50:49 [notice] 1#1: start worker process 43
+2023/05/07 15:50:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 15:50:56 [notice] 37#37: gracefully shutting down
+2023/05/07 15:50:56 [notice] 41#41: gracefully shutting down
+2023/05/07 15:50:56 [notice] 43#43: gracefully shutting down
+2023/05/07 15:50:56 [notice] 42#42: gracefully shutting down
+2023/05/07 15:50:56 [notice] 37#37: exiting
+2023/05/07 15:50:56 [notice] 41#41: exiting
+2023/05/07 15:50:56 [notice] 43#43: exiting
+2023/05/07 15:50:56 [notice] 42#42: exiting
+2023/05/07 15:50:56 [notice] 39#39: gracefully shutting down
+2023/05/07 15:50:56 [notice] 39#39: exiting
+2023/05/07 15:50:56 [notice] 43#43: exit
+2023/05/07 15:50:56 [notice] 37#37: exit
+2023/05/07 15:50:56 [notice] 41#41: exit
+2023/05/07 15:50:56 [notice] 42#42: exit
+2023/05/07 15:50:56 [notice] 39#39: exit
+2023/05/07 15:50:56 [notice] 36#36: gracefully shutting down
+2023/05/07 15:50:56 [notice] 36#36: exiting
+2023/05/07 15:50:56 [notice] 36#36: exit
+2023/05/07 15:50:56 [notice] 38#38: gracefully shutting down
+2023/05/07 15:50:56 [notice] 38#38: exiting
+2023/05/07 15:50:56 [notice] 40#40: gracefully shutting down
+2023/05/07 15:50:56 [notice] 38#38: exit
+2023/05/07 15:50:56 [notice] 40#40: exiting
+2023/05/07 15:50:56 [notice] 40#40: exit
+2023/05/07 15:50:57 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 15:50:57 [notice] 1#1: worker process 36 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 15:50:57 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/05/07 15:50:57 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 15:50:57 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 15:50:57 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 15:50:57 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/05/07 15:50:57 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 15:50:57 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 15:50:57 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 15:50:57 [notice] 1#1: exit
+2023/05/07 15:52:18 [notice] 1#1: using the "epoll" event method
+2023/05/07 15:52:18 [notice] 1#1: nginx/1.23.4
+2023/05/07 15:52:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 15:52:18 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 15:52:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 15:52:18 [notice] 1#1: start worker processes
+2023/05/07 15:52:18 [notice] 1#1: start worker process 37
+2023/05/07 15:52:18 [notice] 1#1: start worker process 38
+2023/05/07 15:52:18 [notice] 1#1: start worker process 39
+2023/05/07 15:52:18 [notice] 1#1: start worker process 40
+2023/05/07 15:52:18 [notice] 1#1: start worker process 41
+2023/05/07 15:52:18 [notice] 1#1: start worker process 42
+2023/05/07 15:52:18 [notice] 1#1: start worker process 43
+2023/05/07 15:52:18 [notice] 1#1: start worker process 44
+2023/05/07 15:52:46 [error] 37#37: *1 open() "/var/www/xdebug/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: xdebugs.local, request: "GET /favicon.ico HTTP/1.1", host: "xdebugs.local:8085", referrer: "http://xdebugs.local:8085/"
+2023/05/07 16:37:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 16:37:06 [notice] 38#38: gracefully shutting down
+2023/05/07 16:37:06 [notice] 40#40: gracefully shutting down
+2023/05/07 16:37:06 [notice] 43#43: gracefully shutting down
+2023/05/07 16:37:06 [notice] 44#44: gracefully shutting down
+2023/05/07 16:37:06 [notice] 42#42: gracefully shutting down
+2023/05/07 16:37:06 [notice] 41#41: gracefully shutting down
+2023/05/07 16:37:06 [notice] 37#37: gracefully shutting down
+2023/05/07 16:37:06 [notice] 39#39: gracefully shutting down
+2023/05/07 16:37:06 [notice] 44#44: exiting
+2023/05/07 16:37:06 [notice] 42#42: exiting
+2023/05/07 16:37:06 [notice] 43#43: exiting
+2023/05/07 16:37:06 [notice] 44#44: exit
+2023/05/07 16:37:06 [notice] 40#40: exiting
+2023/05/07 16:37:06 [notice] 43#43: exit
+2023/05/07 16:37:06 [notice] 40#40: exit
+2023/05/07 16:37:06 [notice] 41#41: exiting
+2023/05/07 16:37:06 [notice] 41#41: exit
+2023/05/07 16:37:06 [notice] 39#39: exiting
+2023/05/07 16:37:06 [notice] 37#37: exiting
+2023/05/07 16:37:06 [notice] 39#39: exit
+2023/05/07 16:37:06 [notice] 37#37: exit
+2023/05/07 16:37:06 [notice] 42#42: exit
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/05/07 16:37:06 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/05/07 16:37:06 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 16:37:06 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/05/07 16:37:06 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 16:37:06 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 16:37:06 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 16:37:06 [notice] 38#38: exiting
+2023/05/07 16:37:06 [notice] 38#38: exit
+2023/05/07 16:37:06 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 16:37:06 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 16:37:06 [notice] 1#1: exit
+2023/05/07 16:37:17 [notice] 1#1: using the "epoll" event method
+2023/05/07 16:37:17 [notice] 1#1: nginx/1.23.4
+2023/05/07 16:37:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 16:37:17 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 16:37:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 16:37:17 [notice] 1#1: start worker processes
+2023/05/07 16:37:17 [notice] 1#1: start worker process 37
+2023/05/07 16:37:17 [notice] 1#1: start worker process 38
+2023/05/07 16:37:17 [notice] 1#1: start worker process 39
+2023/05/07 16:37:17 [notice] 1#1: start worker process 40
+2023/05/07 16:37:17 [notice] 1#1: start worker process 41
+2023/05/07 16:37:17 [notice] 1#1: start worker process 42
+2023/05/07 16:37:17 [notice] 1#1: start worker process 43
+2023/05/07 16:37:17 [notice] 1#1: start worker process 44
+2023/05/07 16:37:23 [error] 38#38: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.27.0.1, server: xdebugs.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 16:51:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 16:51:30 [notice] 37#37: gracefully shutting down
+2023/05/07 16:51:30 [notice] 39#39: gracefully shutting down
+2023/05/07 16:51:30 [notice] 41#41: gracefully shutting down
+2023/05/07 16:51:30 [notice] 42#42: gracefully shutting down
+2023/05/07 16:51:30 [notice] 40#40: gracefully shutting down
+2023/05/07 16:51:30 [notice] 38#38: gracefully shutting down
+2023/05/07 16:51:30 [notice] 38#38: exiting
+2023/05/07 16:51:30 [notice] 41#41: exiting
+2023/05/07 16:51:30 [notice] 40#40: exiting
+2023/05/07 16:51:30 [notice] 39#39: exiting
+2023/05/07 16:51:30 [notice] 37#37: exiting
+2023/05/07 16:51:30 [notice] 38#38: exit
+2023/05/07 16:51:30 [notice] 40#40: exit
+2023/05/07 16:51:30 [notice] 39#39: exit
+2023/05/07 16:51:30 [notice] 37#37: exit
+2023/05/07 16:51:30 [notice] 43#43: gracefully shutting down
+2023/05/07 16:51:30 [notice] 42#42: exiting
+2023/05/07 16:51:30 [notice] 44#44: gracefully shutting down
+2023/05/07 16:51:30 [notice] 41#41: exit
+2023/05/07 16:51:30 [notice] 43#43: exiting
+2023/05/07 16:51:30 [notice] 42#42: exit
+2023/05/07 16:51:30 [notice] 44#44: exiting
+2023/05/07 16:51:30 [notice] 43#43: exit
+2023/05/07 16:51:30 [notice] 44#44: exit
+2023/05/07 16:51:31 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 16:51:31 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 16:51:31 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 16:51:31 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 16:51:31 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 16:51:31 [notice] 1#1: exit
+2023/05/07 16:51:34 [notice] 1#1: using the "epoll" event method
+2023/05/07 16:51:34 [notice] 1#1: nginx/1.23.4
+2023/05/07 16:51:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 16:51:34 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 16:51:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 16:51:34 [notice] 1#1: start worker processes
+2023/05/07 16:51:34 [notice] 1#1: start worker process 38
+2023/05/07 16:51:34 [notice] 1#1: start worker process 39
+2023/05/07 16:51:34 [notice] 1#1: start worker process 40
+2023/05/07 16:51:34 [notice] 1#1: start worker process 41
+2023/05/07 16:51:34 [notice] 1#1: start worker process 42
+2023/05/07 16:51:34 [notice] 1#1: start worker process 43
+2023/05/07 16:51:34 [notice] 1#1: start worker process 44
+2023/05/07 16:51:34 [notice] 1#1: start worker process 45
+2023/05/07 17:28:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 17:28:23 [notice] 45#45: gracefully shutting down
+2023/05/07 17:28:23 [notice] 41#41: gracefully shutting down
+2023/05/07 17:28:23 [notice] 39#39: gracefully shutting down
+2023/05/07 17:28:23 [notice] 40#40: gracefully shutting down
+2023/05/07 17:28:23 [notice] 38#38: gracefully shutting down
+2023/05/07 17:28:23 [notice] 44#44: gracefully shutting down
+2023/05/07 17:28:23 [notice] 43#43: gracefully shutting down
+2023/05/07 17:28:23 [notice] 42#42: gracefully shutting down
+2023/05/07 17:28:23 [notice] 44#44: exiting
+2023/05/07 17:28:23 [notice] 39#39: exiting
+2023/05/07 17:28:23 [notice] 38#38: exiting
+2023/05/07 17:28:23 [notice] 41#41: exiting
+2023/05/07 17:28:23 [notice] 40#40: exiting
+2023/05/07 17:28:23 [notice] 45#45: exiting
+2023/05/07 17:28:23 [notice] 42#42: exiting
+2023/05/07 17:28:23 [notice] 41#41: exit
+2023/05/07 17:28:23 [notice] 42#42: exit
+2023/05/07 17:28:23 [notice] 45#45: exit
+2023/05/07 17:28:23 [notice] 43#43: exiting
+2023/05/07 17:28:23 [notice] 43#43: exit
+2023/05/07 17:28:23 [notice] 38#38: exit
+2023/05/07 17:28:23 [notice] 40#40: exit
+2023/05/07 17:28:23 [notice] 44#44: exit
+2023/05/07 17:28:23 [notice] 39#39: exit
+2023/05/07 17:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 17:28:23 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 17:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/05/07 17:28:23 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: worker process 45 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 17:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 17:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 17:28:23 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 17:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/05/07 17:28:23 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 17:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 17:28:23 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 17:28:23 [notice] 1#1: exit
+2023/05/07 17:28:29 [notice] 1#1: using the "epoll" event method
+2023/05/07 17:28:29 [notice] 1#1: nginx/1.23.4
+2023/05/07 17:28:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 17:28:29 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 17:28:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 17:28:29 [notice] 1#1: start worker processes
+2023/05/07 17:28:29 [notice] 1#1: start worker process 37
+2023/05/07 17:28:29 [notice] 1#1: start worker process 38
+2023/05/07 17:28:29 [notice] 1#1: start worker process 39
+2023/05/07 17:28:29 [notice] 1#1: start worker process 40
+2023/05/07 17:28:29 [notice] 1#1: start worker process 41
+2023/05/07 17:28:29 [notice] 1#1: start worker process 42
+2023/05/07 17:28:29 [notice] 1#1: start worker process 43
+2023/05/07 17:28:29 [notice] 1#1: start worker process 44
+2023/05/07 17:40:54 [error] 37#37: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:41:43 [error] 37#37: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:41:46 [error] 37#37: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:44:54 [error] 43#43: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:45:01 [error] 43#43: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:45:03 [error] 43#43: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:45:19 [error] 43#43: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:46:09 [error] 43#43: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:26 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:43 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:44 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:45 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:46 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:47 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:48 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:48 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:48 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:49 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:49 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:49 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:47:49 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:48:12 [error] 38#38: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 17:49:05 [error] 38#38: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/xdebug/curl.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 2" while reading response header from upstream, client: 172.29.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.29.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 21:16:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 21:16:04 [notice] 37#37: gracefully shutting down
+2023/05/07 21:16:04 [notice] 39#39: gracefully shutting down
+2023/05/07 21:16:04 [notice] 38#38: gracefully shutting down
+2023/05/07 21:16:04 [notice] 43#43: gracefully shutting down
+2023/05/07 21:16:04 [notice] 44#44: gracefully shutting down
+2023/05/07 21:16:04 [notice] 42#42: gracefully shutting down
+2023/05/07 21:16:04 [notice] 40#40: gracefully shutting down
+2023/05/07 21:16:04 [notice] 41#41: gracefully shutting down
+2023/05/07 21:16:04 [notice] 38#38: exiting
+2023/05/07 21:16:04 [notice] 44#44: exiting
+2023/05/07 21:16:04 [notice] 39#39: exiting
+2023/05/07 21:16:04 [notice] 43#43: exiting
+2023/05/07 21:16:04 [notice] 38#38: exit
+2023/05/07 21:16:04 [notice] 40#40: exiting
+2023/05/07 21:16:04 [notice] 42#42: exiting
+2023/05/07 21:16:04 [notice] 43#43: exit
+2023/05/07 21:16:04 [notice] 41#41: exiting
+2023/05/07 21:16:04 [notice] 40#40: exit
+2023/05/07 21:16:04 [notice] 42#42: exit
+2023/05/07 21:16:04 [notice] 41#41: exit
+2023/05/07 21:16:04 [notice] 39#39: exit
+2023/05/07 21:16:04 [notice] 44#44: exit
+2023/05/07 21:16:04 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 21:16:04 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 21:16:04 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 21:16:04 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 21:16:04 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 21:16:04 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 21:16:04 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 21:16:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:16:04 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 21:16:04 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 21:16:04 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 21:16:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:16:23 [notice] 1#1: using the "epoll" event method
+2023/05/07 21:16:23 [notice] 1#1: nginx/1.23.4
+2023/05/07 21:16:23 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 21:16:23 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 21:16:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 21:16:23 [notice] 1#1: start worker processes
+2023/05/07 21:16:23 [notice] 1#1: start worker process 38
+2023/05/07 21:16:23 [notice] 1#1: start worker process 39
+2023/05/07 21:16:23 [notice] 1#1: start worker process 40
+2023/05/07 21:16:23 [notice] 1#1: start worker process 41
+2023/05/07 21:16:23 [notice] 1#1: start worker process 42
+2023/05/07 21:16:23 [notice] 1#1: start worker process 43
+2023/05/07 21:16:23 [notice] 1#1: start worker process 44
+2023/05/07 21:16:23 [notice] 1#1: start worker process 45
+2023/05/07 21:16:44 [error] 38#38: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.30.0.1, server: xdebugs.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 21:16:47 [error] 38#38: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.30.0.1, server: xdebugs.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 21:16:54 [error] 38#38: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.30.0.1, server: xdebugs.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9001", host: "xdebugs.local:8085"
+2023/05/07 21:17:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 21:17:16 [notice] 38#38: gracefully shutting down
+2023/05/07 21:17:16 [notice] 39#39: gracefully shutting down
+2023/05/07 21:17:16 [notice] 41#41: gracefully shutting down
+2023/05/07 21:17:16 [notice] 40#40: gracefully shutting down
+2023/05/07 21:17:16 [notice] 42#42: gracefully shutting down
+2023/05/07 21:17:16 [notice] 44#44: gracefully shutting down
+2023/05/07 21:17:16 [notice] 41#41: exiting
+2023/05/07 21:17:16 [notice] 40#40: exiting
+2023/05/07 21:17:16 [notice] 43#43: gracefully shutting down
+2023/05/07 21:17:16 [notice] 44#44: exiting
+2023/05/07 21:17:16 [notice] 42#42: exiting
+2023/05/07 21:17:16 [notice] 43#43: exiting
+2023/05/07 21:17:16 [notice] 38#38: exiting
+2023/05/07 21:17:16 [notice] 41#41: exit
+2023/05/07 21:17:16 [notice] 44#44: exit
+2023/05/07 21:17:16 [notice] 40#40: exit
+2023/05/07 21:17:16 [notice] 43#43: exit
+2023/05/07 21:17:16 [notice] 42#42: exit
+2023/05/07 21:17:16 [notice] 38#38: exit
+2023/05/07 21:17:16 [notice] 45#45: gracefully shutting down
+2023/05/07 21:17:16 [notice] 45#45: exiting
+2023/05/07 21:17:16 [notice] 45#45: exit
+2023/05/07 21:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 21:17:16 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 21:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/05/07 21:17:16 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 21:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/05/07 21:17:16 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 21:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 45
+2023/05/07 21:17:16 [notice] 1#1: worker process 45 exited with code 0
+2023/05/07 21:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 21:17:16 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 21:17:16 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 21:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 21:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 21:17:16 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 21:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:17:36 [notice] 1#1: using the "epoll" event method
+2023/05/07 21:17:36 [notice] 1#1: nginx/1.23.4
+2023/05/07 21:17:36 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 21:17:36 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 21:17:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 21:17:36 [notice] 1#1: start worker processes
+2023/05/07 21:17:36 [notice] 1#1: start worker process 37
+2023/05/07 21:17:36 [notice] 1#1: start worker process 38
+2023/05/07 21:17:36 [notice] 1#1: start worker process 39
+2023/05/07 21:17:36 [notice] 1#1: start worker process 40
+2023/05/07 21:17:36 [notice] 1#1: start worker process 41
+2023/05/07 21:17:36 [notice] 1#1: start worker process 42
+2023/05/07 21:17:36 [notice] 1#1: start worker process 43
+2023/05/07 21:17:36 [notice] 1#1: start worker process 44
+2023/05/07 21:39:12 [error] 38#38: *36 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function dump() in /var/www/xdebug/curl.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 3" while reading response header from upstream, client: 172.31.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.31.0.2:9001", host: "xdebugs.local:8085"
+2023/05/07 21:39:14 [error] 38#38: *36 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function dump() in /var/www/xdebug/curl.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 3" while reading response header from upstream, client: 172.31.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.31.0.2:9001", host: "xdebugs.local:8085"
+2023/05/07 21:39:23 [error] 38#38: *36 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /var/www/xdebug/curl.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/xdebug/curl.php on line 3" while reading response header from upstream, client: 172.31.0.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://172.31.0.2:9001", host: "xdebugs.local:8085"
+2023/05/07 21:57:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 21:57:14 [notice] 38#38: gracefully shutting down
+2023/05/07 21:57:14 [notice] 37#37: gracefully shutting down
+2023/05/07 21:57:14 [notice] 44#44: gracefully shutting down
+2023/05/07 21:57:14 [notice] 40#40: gracefully shutting down
+2023/05/07 21:57:14 [notice] 41#41: gracefully shutting down
+2023/05/07 21:57:14 [notice] 43#43: gracefully shutting down
+2023/05/07 21:57:14 [notice] 40#40: exiting
+2023/05/07 21:57:14 [notice] 39#39: gracefully shutting down
+2023/05/07 21:57:14 [notice] 43#43: exiting
+2023/05/07 21:57:14 [notice] 44#44: exiting
+2023/05/07 21:57:14 [notice] 42#42: gracefully shutting down
+2023/05/07 21:57:14 [notice] 41#41: exiting
+2023/05/07 21:57:14 [notice] 42#42: exiting
+2023/05/07 21:57:14 [notice] 44#44: exit
+2023/05/07 21:57:14 [notice] 42#42: exit
+2023/05/07 21:57:14 [notice] 38#38: exiting
+2023/05/07 21:57:14 [notice] 37#37: exiting
+2023/05/07 21:57:14 [notice] 38#38: exit
+2023/05/07 21:57:14 [notice] 39#39: exiting
+2023/05/07 21:57:14 [notice] 37#37: exit
+2023/05/07 21:57:14 [notice] 39#39: exit
+2023/05/07 21:57:14 [notice] 43#43: exit
+2023/05/07 21:57:14 [notice] 40#40: exit
+2023/05/07 21:57:14 [notice] 41#41: exit
+2023/05/07 21:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/05/07 21:57:14 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 21:57:14 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 21:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 21:57:14 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 21:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/05/07 21:57:14 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 21:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/05/07 21:57:14 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 21:57:14 [notice] 1#1: exit
+2023/05/07 21:57:33 [notice] 1#1: using the "epoll" event method
+2023/05/07 21:57:33 [notice] 1#1: nginx/1.23.4
+2023/05/07 21:57:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 21:57:33 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 21:57:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 21:57:33 [notice] 1#1: start worker processes
+2023/05/07 21:57:33 [notice] 1#1: start worker process 37
+2023/05/07 21:57:33 [notice] 1#1: start worker process 38
+2023/05/07 21:57:33 [notice] 1#1: start worker process 39
+2023/05/07 21:57:33 [notice] 1#1: start worker process 40
+2023/05/07 21:57:33 [notice] 1#1: start worker process 41
+2023/05/07 21:57:33 [notice] 1#1: start worker process 42
+2023/05/07 21:57:33 [notice] 1#1: start worker process 43
+2023/05/07 21:57:33 [notice] 1#1: start worker process 44
+2023/05/07 22:07:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 22:07:50 [notice] 40#40: gracefully shutting down
+2023/05/07 22:07:50 [notice] 37#37: gracefully shutting down
+2023/05/07 22:07:50 [notice] 38#38: gracefully shutting down
+2023/05/07 22:07:50 [notice] 39#39: gracefully shutting down
+2023/05/07 22:07:50 [notice] 42#42: gracefully shutting down
+2023/05/07 22:07:50 [notice] 44#44: gracefully shutting down
+2023/05/07 22:07:50 [notice] 43#43: gracefully shutting down
+2023/05/07 22:07:50 [notice] 37#37: exiting
+2023/05/07 22:07:50 [notice] 40#40: exiting
+2023/05/07 22:07:50 [notice] 44#44: exiting
+2023/05/07 22:07:50 [notice] 37#37: exit
+2023/05/07 22:07:50 [notice] 44#44: exit
+2023/05/07 22:07:50 [notice] 40#40: exit
+2023/05/07 22:07:50 [notice] 39#39: exiting
+2023/05/07 22:07:50 [notice] 39#39: exit
+2023/05/07 22:07:50 [notice] 41#41: gracefully shutting down
+2023/05/07 22:07:50 [notice] 38#38: exiting
+2023/05/07 22:07:50 [notice] 38#38: exit
+2023/05/07 22:07:50 [notice] 42#42: exiting
+2023/05/07 22:07:50 [notice] 42#42: exit
+2023/05/07 22:07:50 [notice] 41#41: exiting
+2023/05/07 22:07:50 [notice] 41#41: exit
+2023/05/07 22:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 22:07:50 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 22:07:50 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 22:07:50 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 22:07:50 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 22:07:50 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 22:07:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 22:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 22:07:50 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 22:07:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 22:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/05/07 22:07:50 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 22:07:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 22:09:38 [notice] 1#1: using the "epoll" event method
+2023/05/07 22:09:38 [notice] 1#1: nginx/1.23.4
+2023/05/07 22:09:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 22:09:38 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 22:09:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 22:09:38 [notice] 1#1: start worker processes
+2023/05/07 22:09:38 [notice] 1#1: start worker process 37
+2023/05/07 22:09:38 [notice] 1#1: start worker process 38
+2023/05/07 22:09:38 [notice] 1#1: start worker process 39
+2023/05/07 22:09:38 [notice] 1#1: start worker process 40
+2023/05/07 22:09:38 [notice] 1#1: start worker process 41
+2023/05/07 22:09:38 [notice] 1#1: start worker process 42
+2023/05/07 22:09:38 [notice] 1#1: start worker process 43
+2023/05/07 22:09:38 [notice] 1#1: start worker process 44
+2023/05/07 22:11:04 [error] 37#37: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.16.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://192.168.16.2:9001", host: "xdebugs.local:8085"
+2023/05/07 22:13:22 [error] 38#38: *6 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.16.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://192.168.16.2:9001", host: "xdebugs.local:8085"
+2023/05/07 22:14:34 [error] 38#38: *6 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.16.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://192.168.16.2:9001", host: "xdebugs.local:8085"
+2023/05/07 22:31:47 [error] 37#37: *41 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $re in /var/www/xdebug/curl.php on line 3; PHP message: PHP Stack trace:; PHP message: PHP   1. {main}() /var/www/xdebug/curl.php:0" while reading response header from upstream, client: 192.168.16.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://192.168.16.2:9001", host: "xdebugs.local:8085"
+2023/05/07 22:32:12 [error] 37#37: *41 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $re in /var/www/xdebug/curl.php on line 4; PHP message: PHP Stack trace:; PHP message: PHP   1. {main}() /var/www/xdebug/curl.php:0" while reading response header from upstream, client: 192.168.16.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://192.168.16.2:9001", host: "xdebugs.local:8085"
+2023/05/07 22:52:10 [error] 37#37: *47 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $re in /var/www/xdebug/curl.php on line 4; PHP message: PHP Stack trace:; PHP message: PHP   1. {main}() /var/www/xdebug/curl.php:0" while reading response header from upstream, client: 192.168.16.1, server: xdebugs.local, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://192.168.16.2:9001", host: "xdebugs.local:8085"
+2023/05/07 23:05:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 23:05:06 [notice] 37#37: gracefully shutting down
+2023/05/07 23:05:06 [notice] 39#39: gracefully shutting down
+2023/05/07 23:05:06 [notice] 43#43: gracefully shutting down
+2023/05/07 23:05:06 [notice] 40#40: gracefully shutting down
+2023/05/07 23:05:06 [notice] 38#38: gracefully shutting down
+2023/05/07 23:05:06 [notice] 42#42: gracefully shutting down
+2023/05/07 23:05:06 [notice] 41#41: gracefully shutting down
+2023/05/07 23:05:06 [notice] 44#44: gracefully shutting down
+2023/05/07 23:05:06 [notice] 44#44: exiting
+2023/05/07 23:05:06 [notice] 37#37: exiting
+2023/05/07 23:05:06 [notice] 38#38: exiting
+2023/05/07 23:05:06 [notice] 42#42: exiting
+2023/05/07 23:05:06 [notice] 39#39: exiting
+2023/05/07 23:05:06 [notice] 43#43: exiting
+2023/05/07 23:05:06 [notice] 40#40: exiting
+2023/05/07 23:05:06 [notice] 41#41: exiting
+2023/05/07 23:05:06 [notice] 43#43: exit
+2023/05/07 23:05:06 [notice] 38#38: exit
+2023/05/07 23:05:06 [notice] 41#41: exit
+2023/05/07 23:05:06 [notice] 40#40: exit
+2023/05/07 23:05:06 [notice] 39#39: exit
+2023/05/07 23:05:06 [notice] 37#37: exit
+2023/05/07 23:05:06 [notice] 42#42: exit
+2023/05/07 23:05:06 [notice] 44#44: exit
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 23:05:06 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: worker process 39 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/05/07 23:05:06 [notice] 1#1: worker process 42 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/07 23:05:06 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 23:05:06 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/05/07 23:05:06 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 23:05:06 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:05:06 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/05/07 23:05:06 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 23:05:06 [notice] 1#1: exit
+2023/05/07 23:05:21 [notice] 1#1: using the "epoll" event method
+2023/05/07 23:05:21 [notice] 1#1: nginx/1.23.4
+2023/05/07 23:05:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 23:05:21 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 23:05:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 23:05:21 [notice] 1#1: start worker processes
+2023/05/07 23:05:21 [notice] 1#1: start worker process 37
+2023/05/07 23:05:21 [notice] 1#1: start worker process 38
+2023/05/07 23:05:21 [notice] 1#1: start worker process 39
+2023/05/07 23:05:21 [notice] 1#1: start worker process 40
+2023/05/07 23:05:21 [notice] 1#1: start worker process 41
+2023/05/07 23:05:21 [notice] 1#1: start worker process 42
+2023/05/07 23:05:21 [notice] 1#1: start worker process 43
+2023/05/07 23:05:21 [notice] 1#1: start worker process 44
+2023/05/07 23:07:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/07 23:07:34 [notice] 37#37: gracefully shutting down
+2023/05/07 23:07:34 [notice] 38#38: gracefully shutting down
+2023/05/07 23:07:34 [notice] 39#39: gracefully shutting down
+2023/05/07 23:07:34 [notice] 40#40: gracefully shutting down
+2023/05/07 23:07:34 [notice] 37#37: exiting
+2023/05/07 23:07:34 [notice] 40#40: exiting
+2023/05/07 23:07:34 [notice] 43#43: gracefully shutting down
+2023/05/07 23:07:34 [notice] 41#41: gracefully shutting down
+2023/05/07 23:07:34 [notice] 37#37: exit
+2023/05/07 23:07:34 [notice] 40#40: exit
+2023/05/07 23:07:34 [notice] 43#43: exiting
+2023/05/07 23:07:34 [notice] 38#38: exiting
+2023/05/07 23:07:34 [notice] 41#41: exiting
+2023/05/07 23:07:34 [notice] 41#41: exit
+2023/05/07 23:07:34 [notice] 38#38: exit
+2023/05/07 23:07:34 [notice] 43#43: exit
+2023/05/07 23:07:34 [notice] 42#42: gracefully shutting down
+2023/05/07 23:07:34 [notice] 44#44: gracefully shutting down
+2023/05/07 23:07:34 [notice] 44#44: exiting
+2023/05/07 23:07:34 [notice] 44#44: exit
+2023/05/07 23:07:34 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/05/07 23:07:34 [notice] 1#1: worker process 38 exited with code 0
+2023/05/07 23:07:34 [notice] 1#1: worker process 43 exited with code 0
+2023/05/07 23:07:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:07:34 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/05/07 23:07:34 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/05/07 23:07:34 [notice] 1#1: worker process 40 exited with code 0
+2023/05/07 23:07:34 [notice] 1#1: worker process 41 exited with code 0
+2023/05/07 23:07:34 [notice] 1#1: worker process 44 exited with code 0
+2023/05/07 23:07:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:07:34 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/05/07 23:07:34 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/05/07 23:07:34 [notice] 1#1: worker process 37 exited with code 0
+2023/05/07 23:07:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/07 23:07:50 [notice] 1#1: using the "epoll" event method
+2023/05/07 23:07:50 [notice] 1#1: nginx/1.23.4
+2023/05/07 23:07:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/07 23:07:50 [notice] 1#1: OS: Linux 5.19.0-41-generic
+2023/05/07 23:07:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/07 23:07:50 [notice] 1#1: start worker processes
+2023/05/07 23:07:50 [notice] 1#1: start worker process 40
+2023/05/07 23:07:50 [notice] 1#1: start worker process 41
+2023/05/07 23:07:50 [notice] 1#1: start worker process 42
+2023/05/07 23:07:50 [notice] 1#1: start worker process 43
+2023/05/07 23:07:50 [notice] 1#1: start worker process 44
+2023/05/07 23:07:50 [notice] 1#1: start worker process 45
+2023/05/07 23:07:50 [notice] 1#1: start worker process 46
+2023/05/07 23:07:50 [notice] 1#1: start worker process 47
+2023/05/07 23:09:57 [error] 47#47: *16 open() "/var/www/developer/favicon.ico" failed (2: No such file or directory), client: 192.168.48.1, server: devel.local, request: "GET /favicon.ico HTTP/1.1", host: "devel.local:8085", referrer: "http://devel.local:8085/"
+2023/05/07 23:13:29 [error] 40#40: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Undefined constant "Dotenv\Store\File\Paths" in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php:38
+Stack trace:
+#0 /var/www/developer/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php(136): Dotenv\Store\File\Paths::filePaths()
+#1 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(99): Dotenv\Store\StoreBuilder->make()
+#2 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(172): Dotenv\Dotenv::create()
+#3 /var/www/developer/app/Common/Components/LoadEnv.php(12): Dotenv\Dotenv::createUnsafeImmutable()
+#4 /var/www/developer/index.php(16): MyApp\Common\Components\LoadEnv->__construct()
+#5 {main}
+  thrown in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php on line 38" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:13:31 [error] 40#40: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Undefined constant "Dotenv\Store\File\Paths" in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php:38
+Stack trace:
+#0 /var/www/developer/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php(136): Dotenv\Store\File\Paths::filePaths()
+#1 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(99): Dotenv\Store\StoreBuilder->make()
+#2 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(172): Dotenv\Dotenv::create()
+#3 /var/www/developer/app/Common/Components/LoadEnv.php(12): Dotenv\Dotenv::createUnsafeImmutable()
+#4 /var/www/developer/index.php(16): MyApp\Common\Components\LoadEnv->__construct()
+#5 {main}
+  thrown in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php on line 38" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:13:32 [error] 40#40: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Undefined constant "Dotenv\Store\File\Paths" in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php:38
+Stack trace:
+#0 /var/www/developer/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php(136): Dotenv\Store\File\Paths::filePaths()
+#1 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(99): Dotenv\Store\StoreBuilder->make()
+#2 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(172): Dotenv\Dotenv::create()
+#3 /var/www/developer/app/Common/Components/LoadEnv.php(12): Dotenv\Dotenv::createUnsafeImmutable()
+#4 /var/www/developer/index.php(16): MyApp\Common\Components\LoadEnv->__construct()
+#5 {main}
+  thrown in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php on line 38" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:14:28 [error] 40#40: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Undefined constant "Dotenv\Store\File\Paths" in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php:38
+Stack trace:
+#0 /var/www/developer/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php(136): Dotenv\Store\File\Paths::filePaths()
+#1 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(99): Dotenv\Store\StoreBuilder->make()
+#2 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(172): Dotenv\Dotenv::create()
+#3 /var/www/developer/app/Common/Components/LoadEnv.php(12): Dotenv\Dotenv::createUnsafeImmutable()
+#4 /var/www/developer/index.php(16): MyApp\Common\Components\LoadEnv->__construct()
+#5 {main}
+  thrown in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php on line 38" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:14:36 [error] 40#40: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Undefined constant "Dotenv\Store\File\Paths" in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php:38
+Stack trace:
+#0 /var/www/developer/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php(136): Dotenv\Store\File\Paths::filePaths()
+#1 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(99): Dotenv\Store\StoreBuilder->make()
+#2 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(172): Dotenv\Dotenv::create()
+#3 /var/www/developer/app/Common/Components/LoadEnv.php(12): Dotenv\Dotenv::createUnsafeImmutable()
+#4 /var/www/developer/index.php(16): MyApp\Common\Components\LoadEnv->__construct()
+#5 {main}
+  thrown in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php on line 38" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:14:49 [error] 40#40: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Undefined constant "Dotenv\Store\File\Paths" in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php:38
+Stack trace:
+#0 /var/www/developer/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php(136): Dotenv\Store\File\Paths::filePaths()
+#1 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(99): Dotenv\Store\StoreBuilder->make()
+#2 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(172): Dotenv\Dotenv::create()
+#3 /var/www/developer/app/Common/Components/LoadEnv.php(12): Dotenv\Dotenv::createUnsafeImmutable()
+#4 /var/www/developer/index.php(16): MyApp\Common\Components\LoadEnv->__construct()
+#5 {main}
+  thrown in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php on line 38" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:15:38 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:15:39 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:15:41 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:15:55 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Undefined constant "Dotenv\Store\File\Paths" in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php:38
+Stack trace:
+#0 /var/www/developer/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php(136): Dotenv\Store\File\Paths::filePaths()
+#1 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(99): Dotenv\Store\StoreBuilder->make()
+#2 /var/www/developer/vendor/vlucas/phpdotenv/src/Dotenv.php(172): Dotenv\Dotenv::create()
+#3 /var/www/developer/app/Common/Components/LoadEnv.php(12): Dotenv\Dotenv::createUnsafeImmutable()
+#4 /var/www/developer/index.php(16): MyApp\Common\Components\LoadEnv->__construct()
+#5 {main}
+  thrown in /var/www/developer/vendor/vlucas/phpdotenv/src/Store/File/Paths.php on line 38" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:17:12 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:17:14 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:17:22 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:17:59 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:18:06 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:19:27 [error] 40#40: *42 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:19:44 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:20:03 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085"
+2023/05/07 23:20:41 [error] 40#40: *42 FastCGI sent in stderr: "PHP message: BAD" while reading response header from upstream, client: 192.168.48.1, server: devel.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.48.3:9001", host: "devel.local:8085", referrer: "http://devel.local:8085/"
