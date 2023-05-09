@@ -14,7 +14,7 @@
   ],
   "require": {
     "vlucas/phpdotenv": "^5.5",
-    "tracy/tracy": "^2.10",
-    "symfony/var-dumper": "^6.2"
+    "symfony/var-dumper": "^6.2",
+    "tracy/tracy": "^2.10"
   }
 }

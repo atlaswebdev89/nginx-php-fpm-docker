@@ -3,7 +3,7 @@
         'name' => 'apollon/test',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'bcb2fb4ba942c08fd0be51b91f0ffb7af2ab7bf5',
+        'reference' => 'a82310d7c432c7a34a835fc5af17452afe5393a8',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'apollon/test' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'bcb2fb4ba942c08fd0be51b91f0ffb7af2ab7bf5',
+            'reference' => 'a82310d7c432c7a34a835fc5af17452afe5393a8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
