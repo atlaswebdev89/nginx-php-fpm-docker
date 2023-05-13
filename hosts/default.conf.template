@@ -10,6 +10,14 @@ server {
 	index index.html index.htm index.nginx-debian.html;
 
 	server_name _;
+    # Статус для fpm
+    location /status-fpm {
+       access_log   off;
+       include fastcgi_params;
+       fastcgi_pass php-fpm-xdebug:9001;
+       fastcgi_index index.php;
+       fastcgi_param SCRIPT_FILENAME $document_root/$fastcgi_script_name;
+    }
 
 	location / {
 		# First attempt to serve request as file, then

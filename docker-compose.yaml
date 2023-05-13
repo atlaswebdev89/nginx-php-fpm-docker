@@ -22,7 +22,19 @@ services:
       - ./fpm/conf.d/xdebug.ini:/etc/php/8.2/mods-available/xdebug.ini
     networks:
       - web
-  
+
+  php-fpm-exporter-xdebug:
+    image: bakins/php-fpm-exporter:v0.6.1
+    container_name: php-fpm-exporter-xdebug
+    restart: unless-stopped
+    command: [ "--endpoint", "http://nginx-xdebug/status-fpm", "--addr", "0.0.0.0:8080" ]
+    ports:
+      - "9255:8080"
+    networks:
+      - web
+    depends_on:
+      - nginx-xdebug
+
   nginx-xdebug:
     image: nginx:latest
     container_name: nginx-xdebug

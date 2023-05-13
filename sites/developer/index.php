@@ -4,6 +4,13 @@ declare(strict_types=1);
 use Tracy\Debugger;
 use MyApp\Common\Components\LoadEnv;
 use MyApp\Common\Components\Session;
+use Clockwork\Support\Vanilla\Clockwork;
+
+// Monolog
+use Monolog\Level;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+use Monolog\Formatter\HtmlFormatter;
 
 const BASE_PATH = __DIR__;
 const APP_PATH  = BASE_PATH . '/app';
@@ -11,10 +18,41 @@ const LOGS      = BASE_PATH . '/app/logs';
 
 require_once(BASE_PATH . '/vendor/autoload.php');
 
+// init clockwork debuger
+$clockwork = Clockwork::init([
+    'api'                => '/clockwork.php?request=',
+    'storage_files_path' => __DIR__ . '/storage/clockwork',
+    'register_helpers'   => true
+]);
+
+$username = "atlas";
+clock('Log', 'something'); // это debug level
+clock()->info("User {$username} logged in!");
+clock()->error("User {$username} logged in!");
+clock()->warning("User {$username} logged in!");
+clock()->notice("User {$username} logged in!");
+
+clock()->addDatabaseQuery('SELECT * FROM users WHERE id = 1', [], 50);
+
 //// debugBar tracy and pretty errors views
 Debugger::enable(Debugger::Development);
 
+// Monolog
+$monolog     = new Logger('main-logger');
+$stream      = new StreamHandler(BASE_PATH . '/logs/app.log', Level::Debug);
+$stream_html = new StreamHandler(BASE_PATH . '/logs/log.html', Level::Debug);
+$monolog->pushHandler($stream);
+$monolog->pushHandler($stream_html->setFormatter(new HtmlFormatter));
+$monolog->pushProcessor(function ($record) {
+    $record->extra['dummy'] = 'Hello world!';
 
+    return $record;
+});
+
+// write in log file
+$monolog->info("START MEssage", ['name' => 'atlas']);
+// write in log file
+$monolog->error("Error Message", ['name' => 'atlas']);
 try {
     (new LoadEnv(BASE_PATH));
 } catch (Exception $e) {
@@ -65,6 +103,23 @@ if (!isset($_SESSION['NAME'])) {
     echo "SESSION DONE";
 }
 
+
+$array = [
+    'a'    => 1,
+    'b'    => 2,
+    'c'    => 3,
+    'name' => 'atlas',
+];
+
+['c' => $c, 'a' => $a] = $array;
+['name' => $atlas] = $array;
+echo $atlas;
+
+
+//for ($i = 0; $i < 1000000; $i++) {
+//
+//}
+
 // Типы и установка кук
 $name = "atlas";
 $age  = 35;
@@ -104,6 +159,8 @@ echo $a;
 try {
     echo "Hello World";
     error_log("BAD");
+
+    $clockwork->requestProcessed();
 } catch (Throwable $e) {
     echo $e->getMessage();
 }
